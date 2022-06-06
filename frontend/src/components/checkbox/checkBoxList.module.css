@@ -1,0 +1,56 @@
+.title {
+  color: #1d5e6d;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.icon {
+  color: #1d5e6d;
+  font-size: 1.2rem;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flexPrimary {
+  display: flex;
+  flex-direction: row;
+}
+
+.descriptionText {
+  margin-top: 1rem;
+  height: 10em;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+  outline: none;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.flexSecondary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  font-size: larger;
+  padding-left: 20%;
+  padding-right: 20%;
+  align-items: baseline;
+}
+
+.litem {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  width: 40%;
+}
+
+.ritem {
+  margin-left: 35rem;
+  margin-top: -2.5rem;
+}

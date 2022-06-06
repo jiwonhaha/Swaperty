@@ -1,0 +1,96 @@
+.main {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 60rem;
+}
+
+.head {
+  color: #1d5e6d;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background-color: #d3edf5;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.p {
+  text-align: center;
+  font-size: medium;
+}
+
+.filters {
+  background-color: #00000088;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label {
+  padding: 0px 20px;
+}
+.input {
+  width: 150px;
+  margin-right: 20px;
+}
+.searchButton {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  width: 150px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.item {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #eee;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.itemImage {
+  width: 120px;
+  height: 120px;
+}
+.position {
+  color: #64626a;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.itemRight {
+  flex: 1;
+  display: flex;
+  padding-left: 20px;
+}
+.split {
+  margin: 20px 0px;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+}
+.item2 {
+  margin-top: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.item3 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.more {
+  background-color: rgb(90, 204, 143);
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+}

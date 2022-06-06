@@ -1,0 +1,76 @@
+.item {
+  margin: 1rem 0;
+  height: 40rem;
+}
+
+.image {
+  
+  align-items: center;
+  width: 100%; 
+  height :auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image img{
+
+  width: auto; height: auto;
+  max-width: 90%;
+  max-height: 40vh;
+  margin-top: 5%;
+}
+
+.content{
+  text-align: center;
+  
+}
+
+.contnet h3{
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.actions button{
+  font:inherit;
+  cursor: pointer;
+  background-color: #00d095;
+  color: white;
+  border: 1px solid #00d095;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 8rem;
+  height: 3rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: rgb(90, 204, 143);
+  border-color: rgb(90, 204, 143);
+  color:#2c292b
+}
+.actions .small {
+  text-align: center;
+}
+
+.descriptionText {
+  margin-top: 1rem;
+  height: 3em;
+  width: 80%;
+  overflow: hidden;
+  resize: none;
+  outline: none;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: large;
+}

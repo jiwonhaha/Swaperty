@@ -1,0 +1,195 @@
+.contactwrap {
+  font-size: 26px;
+  line-height: 33px;
+  position: relative;
+  display: flex;
+  padding: 20px -100px;
+}
+.dl {
+  margin: 0;
+}
+.dis{
+  margin-top: 1rem;
+  width: 630px;
+  margin-top: 2rem;
+  margin-left:auto;
+  margin-right:auto;
+  font-weight: normal;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  text-align: center;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.dt {
+  font-size: 24px;
+  line-height: 42px;
+  color: #000000;
+}
+.dd {
+  margin: 0;
+  font-size: 16px;
+}
+.starsbox {
+  display: flex;
+  margin-top: 10px;
+}
+.stars {
+  width: 14px;
+  height: 15px;
+  background: url("../../components/Images/stars_1.svg");
+  margin-right: 5px;
+}
+.starshalf {
+  background: url("../../components/Images/stars_2.svg");
+}
+.po {
+  margin-left: 200rem;
+}
+
+.prebox {
+  margin-top: 10px;
+  color: #64626a;
+}
+.timesbox {
+  font-size: 18px;
+  line-height: 36px;
+  color: #64626a;
+  text-align: left;
+}
+
+.alertpopup {
+  width: 640px;
+  height: 710px;
+  border: 2px solid #000;
+  position: relative;
+  z-index: 2;
+  background: #f2f2f2;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.alertpopup:after,
+.alertpopup::before {
+  position: absolute;
+  content: "";
+  right: -6px;
+  top: -6px;
+  border-width: 80px;
+  border-color: #fff #fff transparent transparent;
+  border-style: solid solid dashed dashed;
+}
+.alertpopup::before {
+  right: -2px;
+  top: -2px;
+  border-width: 78px;
+  border-color: #000 #000 transparent transparent;
+}
+.alertbox {
+  padding: 45px;
+}
+
+.logobox {
+  text-align: center;
+}
+
+.usearea {
+  color: #000000;
+  font-size: 18px;
+  margin: 50px 0 30px;
+  visibility: hidden;
+}
+.timeselectbox {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+.timeselectbox li {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.timeselectbox li label {
+  font-size: 18px;
+  color: #000;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+.timeselectbox li .input-box {
+  display: flex;
+  align-items: center;
+}
+.timeselectbox li .icon {
+  width: 16px;
+  height: 14px;
+  background: url(../../components/Images/times.svg);
+  margin-right: 10px;
+}
+.timeselectbox li input {
+  width: 195px;
+  height: 28px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin-left : 1rem;
+  margin-bottom: 1rem;
+}
+.textareabox {
+  margin-top: 65px;
+  text-align: center;
+}
+.textareabox textarea {
+  width: 525px;
+  height: 214px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5);
+  resize: none;
+}
+.btnarea {
+  padding-top: 10px;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+.btnarea button {
+  height: 21px;
+  width: 157px;
+  left: 0px;
+  top: 0px;
+  border-radius: 25px;
+  background: #00d095;
+  border: none;
+  color: #fff;
+}
+.btnarea button:hover {
+  background: #00d095;
+  color: #000;
+}
+.btnarea .icon {
+  width: 50px;
+  height: 50px;
+  background: url(../../components/Images/order_icon.svg);
+  margin-left: 20px;
+}
+
+.checklist{
+  text-align: center;
+}
+
+.content{
+  margin-top: 0.5rem;
+}
+
+.content .input{
+  margin-right: 0.5rem;
+}
+

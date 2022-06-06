@@ -1,0 +1,175 @@
+.item {
+  margin: 1rem 0;
+}
+
+.iconbox{
+width:100%;
+height: 8vh;
+object-fit: contain;
+position: flex;
+object-position: left;
+margin-top : -1rem;
+}
+
+.image {
+  align-items: center;
+  width: 100%; 
+  height :auto;
+  overflow: hidden;
+  text-align: center;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img{
+  
+  width: auto; height: auto;
+  max-width: 90%;
+  max-height: 40vh;
+  margin-top: 2%;
+}
+
+.content{
+  text-align: center;
+  padding: 1rem;
+}
+
+.contnet h3{
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+
+.des{
+
+  margin:100px;
+  width: 630px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  text-align: center;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3 ;
+  -webkit-box-orient: vertical;
+  }
+  
+
+
+.content h5{
+
+margin:100px;
+outline: 1px solid #1d5e6d;
+display: block;
+color: black;
+width: 630px;
+margin-top: 2rem;
+margin-left: 9rem;
+font-weight: bold !important;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: normal;
+line-height: 1.2;
+text-align: center;
+word-wrap: break-word;
+display: -webkit-box;
+-webkit-line-clamp: 3 ;
+-webkit-box-orient: vertical;
+}
+
+.actions {
+  padding: 1.5rem;
+  margin-top: -5rem;
+  text-align: center;
+}
+.actionsa {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+.actions button{
+  font:inherit;
+  cursor: pointer;
+  background-color: #00d095;
+  color: white;
+  border: 1px solid #00d095;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 8rem;
+  height: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: rgb(90, 204, 143);
+  border-color: rgb(90, 204, 143);
+  color:#2c292b
+}
+
+.actionsa button{
+  font:inherit;
+  cursor: pointer;
+  background-color: #00d095;
+  color: white;
+  border: 1px solid #00d095;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 6rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.actionsa button:hover,
+.actionsa button:active {
+  background-color: rgb(90, 204, 143);
+  border-color: rgb(90, 204, 143);
+  color:#2c292b
+}
+.om{
+
+  font-size: 15;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+
+.req {
+  word-wrap: break-word;
+}
+
+.new{
+  float: left;
+  width:100%;
+  text-align: center;
+  padding-left: 8rem;
+  font-size: x-small;
+  font-weight: bold;
+  color: red;
+}
+
+.descriptionText {
+  margin-top: 1rem;
+  height: 3em;
+  width: 80%;
+  overflow: hidden;
+  resize: none;
+  outline: none;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: large;
+}

@@ -1,0 +1,42 @@
+
+    .actions {
+      padding: 1.5rem;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    
+    .actions button{
+      font:inherit;
+      cursor: pointer;
+      background-color: #00d095;
+      color: white;
+      border: 1px solid #00d095;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 1rem;
+      width: 8rem;
+      height: 3rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    
+    .actions button:hover,
+    .actions button:active {
+      background-color: rgb(90, 204, 143);
+      border-color: rgb(90, 204, 143);
+      color:#2c292b
+    }
+    
+    .item{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .item h1{
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+
+    .req {
+        word-wrap: break-word;
+    }
